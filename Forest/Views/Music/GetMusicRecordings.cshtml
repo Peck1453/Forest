@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Forest.Data.Music_Recording>
+
+@{
+    ViewBag.Title = "GetMusicRecordings";
+}
+
+<h2>GetMusicRecordings</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Artist)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image_Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Num_Tracks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Stock_Count)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Released)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Artist)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Genre)
+    @**@
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Image_Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Num_Tracks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Stock_Count)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Released)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Recording", new { id = item.Id })
+            @*@Html.ActionLink("Details", "Details", new { id=item.Id })*@ |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

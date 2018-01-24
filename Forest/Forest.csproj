@@ -192,6 +192,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MusicController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -258,6 +259,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Music\Categories.cshtml" />
+    <Content Include="Views\Music\GetMusicRecordings.cshtml" />
+    <Content Include="Views\Music\Recording.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -274,6 +278,16 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Forest.Services\Forest.Services\Forest.Services.csproj">
+      <Project>{bcc512a6-8d4a-4ba4-85d0-d0ab30f15f3b}</Project>
+      <Name>Forest.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Forest.Data\Forest.Data.csproj">
+      <Project>{4eba30de-90ac-45db-b4eb-064c673ecab6}</Project>
+      <Name>Forest.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

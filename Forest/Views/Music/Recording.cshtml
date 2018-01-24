@@ -1,0 +1,82 @@
+﻿@model Forest.Data.Music_Recording
+
+@{
+    ViewBag.Title = "Recording";
+}
+
+<h2>Recording</h2>
+
+<div>
+    <h4>Music_Recording</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Artist)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Genre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Genre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Image_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Num_Tracks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Num_Tracks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Stock_Count)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Stock_Count)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Released)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Released)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

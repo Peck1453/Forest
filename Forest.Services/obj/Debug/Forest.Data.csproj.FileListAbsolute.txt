@@ -1,0 +1,4 @@
+F:\Forest\Forest\Forest\Forest.Services\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+F:\Forest\Forest\Forest\Forest.Services\obj\Debug\Forest.Data.csproj.CoreCompileInputs.cache
+F:\Forest\Forest\Forest\Forest.Services\obj\Debug\Forest.Services.dll
+F:\Forest\Forest\Forest\Forest.Services\obj\Debug\Forest.Services.pdb
