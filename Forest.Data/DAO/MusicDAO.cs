@@ -51,7 +51,7 @@ namespace Forest.Data.DAO
         {
             Music_Recording record = GetMusicRecording(recording.Id);
             record.Artist = recording.Artist;
-            record.Genre = recording.Artist;
+            record.Genre = recording.Genre;
             record.Image_Name = recording.Image_Name;
             record.Num_Tracks = recording.Num_Tracks;
             record.Price = recording.Price;
@@ -61,9 +61,26 @@ namespace Forest.Data.DAO
             _context.SaveChanges();
 
 
-
-        }
         
+        }
+
+
+        public Music_Category GetMusicCategory(int id)
+        {
+            IQueryable<Music_Category> _category;
+            _category = from category
+            in _context.Music_Category
+                         where category.Id == id
+                         select category;
+            return _category.ToList<Music_Category>().First();
+        }
+
+        public void EditMusicGenre(Music_Category category)
+        {
+            Music_Category genre = GetMusicCategory(category.Id);
+            genre.Genre = category.Genre;
+            _context.SaveChanges();
+        }
     }
 }
 

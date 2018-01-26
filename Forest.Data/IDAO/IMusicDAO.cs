@@ -12,5 +12,6 @@ namespace Forest.Data.IDAO
         IList<Music_Recording> GetMusicRecordings(string genre);
         Music_Recording GetMusicRecording(int id);
         void EditMusicRecording(Music_Recording recording);
+        void EditMusicGenre(Music_Category category);
     }
 }

@@ -263,10 +263,10 @@
     <Content Include="Views\Music\Categories.cshtml" />
     <Content Include="Views\Music\GetMusicRecordings.cshtml" />
     <Content Include="Views\Music\Recording.cshtml" />
+    <Content Include="Views\MusicAdmin\EditMusicRecording.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\MusicAdmin\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

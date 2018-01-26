@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Forest.Data;
 
 namespace Forest.Controllers
 {
@@ -16,12 +17,8 @@ namespace Forest.Controllers
         }
         // GET: MusicAdmin
 
-        public ActionResult EditMusicRecording(int id)
-        {
-            return View();
-
-
-        }
+       
+        
 
         public ActionResult Index()
         {
@@ -57,20 +54,24 @@ namespace Forest.Controllers
         }
 
         // GET: MusicAdmin/Edit/5
-        public ActionResult Edit(int id)
+
+        [HttpGet]
+        public ActionResult EditMusicRecording(int id)
         {
-            return View();
+            return View("EditMusicRecording",_musicService.GetMusicRecording(id));
+
         }
 
         // POST: MusicAdmin/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult EditMusicRecording(int id, Music_Recording recording)
         {
             try
             {
                 // TODO: Add update logic here
 
-                return RedirectToAction("Index");
+                _musicService.EditMusicRecording(recording);
+                return RedirectToAction("Recordings", new { genre = recording.Genre, controller = "Music" });
             }
             catch
             {
