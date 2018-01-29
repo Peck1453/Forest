@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BEANS\MusicBEAN.cs" />
     <Compile Include="DAO\MusicDAO.cs" />
     <Compile Include="ForestDataModel.Context.cs">
       <AutoGen>True</AutoGen>

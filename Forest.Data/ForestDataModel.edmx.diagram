@@ -5,8 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="6bf2986791614ad39f6430d750623eee" Name="Diagram1">
-        <EntityTypeShape EntityType="ForestModel.Music_Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ForestModel.Music_Recording" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ForestModel.Music_Category" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="ForestModel.Music_Recording" Width="1.5" PointX="2.75" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -4,23 +4,23 @@
     <EntitySetMapping Name="Music_Category">
       <EntityTypeMapping TypeName="ForestModel.Music_Category">
         <MappingFragment StoreEntitySet="Music_Category">
-          <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Music_Recording">
       <EntityTypeMapping TypeName="ForestModel.Music_Recording">
         <MappingFragment StoreEntitySet="Music_Recording">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="Artist" ColumnName="Artist" />
-          <ScalarProperty Name="Title" ColumnName="Title" />
-          <ScalarProperty Name="Genre" ColumnName="Genre" />
-          <ScalarProperty Name="Image_Name" ColumnName="Image_Name" />
-          <ScalarProperty Name="Num_Tracks" ColumnName="Num_Tracks" />
-          <ScalarProperty Name="Price" ColumnName="Price" />
-          <ScalarProperty Name="Stock_Count" ColumnName="Stock_Count" />
           <ScalarProperty Name="Released" ColumnName="Released" />
+          <ScalarProperty Name="Stock_Count" ColumnName="Stock_Count" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Num_Tracks" ColumnName="Num_Tracks" />
+          <ScalarProperty Name="Image_Name" ColumnName="Image_Name" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Artist" ColumnName="Artist" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

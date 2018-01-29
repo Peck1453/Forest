@@ -261,7 +261,6 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Music\Categories.cshtml" />
-    <Content Include="Views\Music\GetMusicRecordings.cshtml" />
     <Content Include="Views\Music\Recording.cshtml" />
     <Content Include="Views\MusicAdmin\EditMusicRecording.cshtml" />
     <Content Include="Views\MusicAdmin\EditMusicCategory.cshtml" />
@@ -269,6 +268,7 @@
     <Content Include="Views\MusicAdmin\AddMusicGenre.cshtml" />
     <Content Include="Views\MusicAdmin\DeleteMusicRecording.cshtml" />
     <Content Include="Views\MusicAdmin\DeleteMusicGenre.cshtml" />
+    <Content Include="Views\Music\GetMusicRecordings.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
