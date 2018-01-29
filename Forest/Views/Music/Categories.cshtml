@@ -7,7 +7,7 @@
 <h2>Categories</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "AddMusicGenre", new {controller = "MusicAdmin" })
 </p>
 <table class="table">
     <tr>
@@ -24,9 +24,10 @@
             @Html.ActionLink(item.Genre, "Recordings", new { genre = item.Genre })
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Edit", "EditMusicCategory", new { id = item.Id, controller = "MusicAdmin" }) |
             @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Delete", "DeleteMusicGenre", new { id=item.Id, controller = "MusicAdmin" })   |
+            @Html.ActionLink("Add Music","AddMusicRecording", new {genre = item.Genre,controller = "MusicAdmin" })
         </td>
     </tr>
 }

@@ -32,26 +32,53 @@ namespace Forest.Controllers
         }
 
         // GET: MusicAdmin/Create
-        public ActionResult Create()
+        [HttpGet]
+        public ActionResult AddMusicRecording(string genre)
         {
             return View();
         }
 
         // POST: MusicAdmin/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult AddMusicRecording(Music_Recording recording)
         {
             try
             {
                 // TODO: Add insert logic here
-
-                return RedirectToAction("Index");
+                _musicService.AddMusicRecording(recording);
+                return RedirectToAction("Recordings", new { genre = recording.Genre, controller = "Music" });
             }
             catch
             {
                 return View();
             }
         }
+
+
+
+        // GET: MusicAdmin/Create
+        [HttpGet]
+        public ActionResult AddMusicGenre()
+        {
+            return View();
+        }
+
+        // POST: MusicAdmin/Create
+        [HttpPost]
+        public ActionResult AddMusicGenre(Music_Category category)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+                _musicService.AddMusicGenre(category);
+                return RedirectToAction("Categories", new {controller = "Music" });
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
 
         // GET: MusicAdmin/Edit/5
 
@@ -72,6 +99,66 @@ namespace Forest.Controllers
 
                 _musicService.EditMusicRecording(recording);
                 return RedirectToAction("Recordings", new { genre = recording.Genre, controller = "Music" });
+
+
+                //return RedirectToAction("Recordings", new { genre = recording.Genre, controller = "Music" });
+                //return View_musicService.GetMusicCategories());
+
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        [HttpGet]
+        public ActionResult EditMusicCategory(int id)
+        {
+            return View("EditMusicCategory", _musicService.GetMusicCategory(id));
+
+        }
+
+        // POST: MusicAdmin/Edit/5
+        [HttpPost]
+        public ActionResult EditMusicCategory(int id, Music_Category category)
+        {
+            try
+            {
+                // TODO: Add update logic here
+
+                _musicService.EditMusicGenre(category);
+                return RedirectToAction("Categories", new { genre = category.Genre, controller = "Music" });
+                ;
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+
+        // GET: MusicAdmin/Delete/5
+        [HttpGet]
+        public ActionResult DeleteMusicRecording(int id)
+        {
+            return View("DeleteMusicRecording", _musicService.GetMusicRecording(id));
+        }
+
+        // POST: MusicAdmin/Delete/5
+        [HttpPost]
+        public ActionResult DeleteMusicRecording(int id, Music_Recording recording)
+        {
+            try
+            {
+                Music_Recording _recording;
+                _recording = _musicService.GetMusicRecording(recording.Id);
+                _musicService.DeleteMusicRecording(_recording);
+                return RedirectToAction("Recordings", new { genre = _recording.Genre, controller = "Music" });
+
+
+                // TODO: Add delete logic here
+
+
             }
             catch
             {
@@ -80,20 +167,27 @@ namespace Forest.Controllers
         }
 
         // GET: MusicAdmin/Delete/5
-        public ActionResult Delete(int id)
+        [HttpGet]
+        public ActionResult DeleteMusicGenre(int id)
         {
-            return View();
+            return View("DeleteMusicGenre", _musicService.GetMusicCategory(id));
         }
 
         // POST: MusicAdmin/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult DeleteMusicGenre(int id, Music_Category category)
         {
+
+            // TODO: Add delete logic here
             try
             {
-                // TODO: Add delete logic here
+                Music_Category _category;
+                _category = _musicService.GetMusicCategory(category.Id);
+                _musicService.DeleteMusicGenre(_category);
+                return RedirectToAction("Categories", new { genre = _category.Genre, controller = "Music" });
 
-                return RedirectToAction("Index");
+                //return RedirectToAction("Recordings", new { genre = _recording.Genre, controller = "Music" });
+                
             }
             catch
             {

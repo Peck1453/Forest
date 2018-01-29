@@ -41,13 +41,13 @@ namespace Forest.Data.DAO
             IQueryable<Music_Recording> _recording;
             _recording = from recording
             in _context.Music_Recording
-            where recording.Id == id
-            select recording;
+                         where recording.Id == id
+                         select recording;
             return _recording.ToList<Music_Recording>().First();
         }
 
 
-        public void EditMusicRecording (Music_Recording recording)
+        public void EditMusicRecording(Music_Recording recording)
         {
             Music_Recording record = GetMusicRecording(recording.Id);
             record.Artist = recording.Artist;
@@ -61,7 +61,7 @@ namespace Forest.Data.DAO
             _context.SaveChanges();
 
 
-        
+
         }
 
 
@@ -70,8 +70,8 @@ namespace Forest.Data.DAO
             IQueryable<Music_Category> _category;
             _category = from category
             in _context.Music_Category
-                         where category.Id == id
-                         select category;
+                        where category.Id == id
+                        select category;
             return _category.ToList<Music_Category>().First();
         }
 
@@ -80,6 +80,35 @@ namespace Forest.Data.DAO
             Music_Category genre = GetMusicCategory(category.Id);
             genre.Genre = category.Genre;
             _context.SaveChanges();
+        }
+
+        public void AddMusicRecording(Music_Recording recording)
+        {
+
+            _context.Music_Recording.Add(recording);
+            _context.SaveChanges();
+        }
+
+        public void AddMusicGenre(Music_Category category)
+        {
+            _context.Music_Category.Add(category);
+            _context.SaveChanges();
+        }
+
+        public void DeleteMusicRecording(Music_Recording recording)
+        {
+            _context.Music_Recording.Remove(recording);
+            _context.SaveChanges();
+
+
+        }
+
+        public void DeleteMusicGenre(Music_Category category)
+        {
+            _context.Music_Category.Remove(category);
+            _context.SaveChanges();
+
+
         }
     }
 }
