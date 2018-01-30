@@ -73,6 +73,29 @@ namespace Forest.Data.DAO
             return _recording.ToList<Music_Recording>().First();
         }
 
+        //public IList<MusicBEAN> GetMusicRecording(int genre)
+        //{
+        //    IQueryable<MusicBEAN> _musicBean;
+        //    _musicBean = from recs in _context.Music_Recording
+        //                 from cats in _context.Music_Category
+        //                 where recs.Genre == cats.Id
+        //                 where cats.Id == genre
+        //                 select new MusicBEAN
+        //                 {
+        //                     Id = recs.Id,
+        //                     Artist = recs.Artist,
+        //                     Title = recs.Title,
+        //                     Genre = cats.Genre,
+        //                     Image_Name = recs.Image_Name,
+        //                     Num_Tracks = recs.Num_Tracks,
+        //                     price = recs.Price,
+        //                     Stock_Count = recs.Stock_Count,
+        //                     Released = recs.Released
+        //                 };
+        //    return _musicBean.ToList<MusicBEAN>().First();
+        //}
+
+
 
 
         public void EditMusicRecording(Music_Recording recording)
