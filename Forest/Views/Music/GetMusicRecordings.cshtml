@@ -65,11 +65,19 @@
             @Html.DisplayFor(modelItem => item.Released)
         </td>
         <td>
-            @Html.ActionLink("Edit", "EditMusicRecording", new { id=item.Id, controller = "MusicAdmin" }) |
-            @Html.ActionLink("Details", "Recording", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "DeleteMusicRecording", new { id=item.Id })
-        </td>
+            <a href=@Url.Action("EditMusicRecording", new { id=item.Id, controller = "MusicAdmin" })>
+                <img src="~/Content/Images/edit.png" alt="Edit" style="height:30px;width:70px" />
+            </a> |
+            @*<button class="btn" a href=@Url.Action("EditMusicRecording", new { id=item.Id, controller = "MusicAdmin" })>Edit</button> |*@
+            <a href= @Url.Action("Recording", new { id = item.Id, })>
+                <img src="~/Content/Images/details.png" alt="Details" style="height:30px;width:80px" /></a> |
+            @*<button class="btn" a href=@Url.Action("Recording", new { id=item.Id, })>Details</button> |*@
+            <a href= @Url.Action("DeleteMusicRecording", new { id = item.Id, })>
+                <img src="~/Content/Images/delete.png" alt="Delete" style="height:30px;width:80px" /></a> |
+            @*<button class="btn" a href=@Url.Action("DeleteMusicRecording", new { id=item.Id, })>Delete</button> |*@
+
+</td>
     </tr>
 }
-
+    
 </table>

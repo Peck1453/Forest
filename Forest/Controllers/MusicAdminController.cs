@@ -33,8 +33,24 @@ namespace Forest.Controllers
 
         // GET: MusicAdmin/Create
         [HttpGet]
-        public ActionResult AddMusicRecording(string genre)
+        public ActionResult AddMusicRecording(string selectedGenre)
         {
+            List<SelectListItem> genreList = new List<SelectListItem>();
+            foreach(var item in _musicService.GetMusicCategories())
+            {
+                genreList.Add(
+                  new SelectListItem()
+                  {
+                      Text = item.Genre,
+                      Value = item.Id.ToString(),
+                      Selected = (item.Genre == (selectedGenre) ? true : false)
+
+
+
+                  });
+            }
+
+            ViewBag.genreList = genreList;
             return View();
         }
 
