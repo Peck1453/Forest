@@ -6,17 +6,19 @@ using System.Web.Mvc;
 
 namespace Forest.Controllers
 {
-    public class MusicController : Controller
+    public class MusicController : ApplicationController
     {
-        private Services.IService.IMusicService _musicService;
+  //      private Services.IService.IMusicService _musicService;
 
             public MusicController()
         { 
-            _musicService = new Services.Service.MusicService();}
+         //   _musicService = new Services.Service.MusicService();
+        }
         // GET: Music
         public ActionResult Categories()
         {
-            return View(_musicService.GetMusicCategories());
+            return View(ViewBag.genres);
+            //return View(_musicService.GetMusicCategories());
         }
 
         //public ActionResult Recordings(string genre)

@@ -26,5 +26,11 @@ namespace Forest.Controllers
 
             return View();
         }
+
+        public ActionResult DownloadTerms()
+        {
+            return File("~/Content/Terms and Conditions.pdf", "application/pdf", "Terms and Conditions.pdf");
+
+        }
     }
 }
