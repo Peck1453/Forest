@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest", "Forest\Forest.csproj", "{43D692AF-51E9-4177-B3BF-F175026ABEC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest.Services", "..\Forest.Services\Forest.Services\Forest.Services.csproj", "{BCC512A6-8D4A-4BA4-85D0-D0AB30F15F3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest.Services", "Forest.Services\Forest.Services.csproj", "{BCC512A6-8D4A-4BA4-85D0-D0AB30F15F3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forest.Data", "Forest.Data\Forest.Data.csproj", "{4EBA30DE-90AC-45DB-B4EB-064C673ECAB6}"
 EndProject

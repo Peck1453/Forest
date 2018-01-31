@@ -20,3 +20,14 @@ F:\Download\Forest\Forest\Forest\Forest.Data\obj\Debug\Forest.Data.csprojResolve
 F:\Download\Forest\Forest\Forest\Forest.Data\obj\Debug\Forest.Data.csproj.CoreCompileInputs.cache
 F:\Download\Forest\Forest\Forest\Forest.Data\obj\Debug\Forest.Data.dll
 F:\Download\Forest\Forest\Forest\Forest.Data\obj\Debug\Forest.Data.pdb
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\Forest.Data.dll.config
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\Forest.Data.dll
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\Forest.Data.pdb
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\EntityFramework.dll
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\EntityFramework.xml
+F:\Download\Forest Github\Forest-master\Forest.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\Download\Forest Github\Forest-master\Forest.Data\obj\Debug\Forest.Data.csprojResolveAssemblyReference.cache
+F:\Download\Forest Github\Forest-master\Forest.Data\obj\Debug\Forest.Data.csproj.CoreCompileInputs.cache
+F:\Download\Forest Github\Forest-master\Forest.Data\obj\Debug\Forest.Data.dll
+F:\Download\Forest Github\Forest-master\Forest.Data\obj\Debug\Forest.Data.pdb

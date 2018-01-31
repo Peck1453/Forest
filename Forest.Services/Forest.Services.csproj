@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\..\Forest\Forest.Data\Forest.Data.csproj">
+    <ProjectReference Include="..\Forest.Data\Forest.Data.csproj">
       <Project>{4eba30de-90ac-45db-b4eb-064c673ecab6}</Project>
       <Name>Forest.Data</Name>
     </ProjectReference>

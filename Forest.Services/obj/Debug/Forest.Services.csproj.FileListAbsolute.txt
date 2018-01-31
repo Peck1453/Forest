@@ -1,0 +1,33 @@
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Services.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Services.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Data.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\EntityFramework.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Data.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Data.dll.config
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\EntityFramework.xml
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.csproj.CoreCompileInputs.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME7\7\b7036747\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.pdb
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Services.dll
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Services.pdb
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Data.dll
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\EntityFramework.dll
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Data.pdb
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\Forest.Data.dll.config
+F:\Download\Forest Github\Forest-master\Forest.Services\bin\Debug\EntityFramework.xml
+F:\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
+F:\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.csproj.CoreCompileInputs.cache
+F:\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.dll
+F:\Download\Forest Github\Forest-master\Forest.Services\obj\Debug\Forest.Services.pdb
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\Forest.Services.dll
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\Forest.Services.pdb
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\Forest.Data.dll
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\EntityFramework.dll
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\Forest.Data.pdb
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\Forest.Data.dll.config
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\bin\Debug\EntityFramework.xml
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.csproj.CoreCompileInputs.cache
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.dll
+F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.pdb
