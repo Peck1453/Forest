@@ -190,6 +190,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ApplicationController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -275,6 +276,12 @@
     <Content Include="Views\MusicAdmin\DeleteMusicRecording.cshtml" />
     <Content Include="Views\MusicAdmin\DeleteMusicGenre.cshtml" />
     <Content Include="Views\Music\GetMusicRecordings.cshtml" />
+    <Content Include="Views\Admin\GetUsers.cshtml" />
+    <Content Include="Views\Admin\CreateRole.cshtml" />
+    <Content Include="Views\Admin\GetRoles.cshtml" />
+    <Content Include="Views\Admin\ManageUserRoles.cshtml" />
+    <Content Include="Views\Admin\GetRolesforUser.cshtml" />
+    <Content Include="Views\Admin\GetRolesforUserConfirmed.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,19 @@
+﻿using Forest.Models;
+
+@{
+    ViewBag.Title = "ManageUserRoles";
+}
+
+<h2>Manage User Roles</h2>
+@using (Html.BeginForm("ManageUserRoles", "Admin"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <p>
+        User UserName: @Html.DropDownList("UserName", (IEnumerable<SelectListItem>)ViewBag.Users, "Select...")
+        Role Name: @Html.DropDownList("RoleName", (IEnumerable<SelectListItem>)ViewBag.Roles, "Select...")
+    </p>
+    <input type="submit" value="Save"/>
+
+}
+

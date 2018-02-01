@@ -31,3 +31,14 @@ F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Se
 F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.csproj.CoreCompileInputs.cache
 F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.dll
 F:\Download\Backup Forest post lesson 9- working Genre dropdown\Forest\Forest.Services\obj\Debug\Forest.Services.pdb
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\Forest.Services.dll
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\Forest.Services.pdb
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\Forest.Data.dll
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\EntityFramework.dll
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\Forest.Data.pdb
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\Forest.Data.dll.config
+F:\Download\Forest\Forest\Forest.Services\bin\Debug\EntityFramework.xml
+F:\Download\Forest\Forest\Forest.Services\obj\Debug\Forest.Services.csprojResolveAssemblyReference.cache
+F:\Download\Forest\Forest\Forest.Services\obj\Debug\Forest.Services.csproj.CoreCompileInputs.cache
+F:\Download\Forest\Forest\Forest.Services\obj\Debug\Forest.Services.dll
+F:\Download\Forest\Forest\Forest.Services\obj\Debug\Forest.Services.pdb

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "GetRolesforUserConfirmed";
+}
+
+<h2>Roles for This User Are;</h2>
+@if (ViewBag.RolesForThisUser !=null)
+{
+    <div>
+        <ol>
+            @foreach (string s in ViewBag.RolesforThisUser)
+            {
+                <li>@s</li>
+            }
+        </ol>
+    </div>
+
+}

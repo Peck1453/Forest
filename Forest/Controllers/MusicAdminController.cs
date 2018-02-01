@@ -32,6 +32,7 @@ namespace Forest.Controllers
         }
 
         // GET: MusicAdmin/Create
+        [Authorize(Roles ="Administator, Boss")]
         [HttpGet]
         public ActionResult AddMusicRecording(string selectedGenre)
         {
